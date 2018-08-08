@@ -6,6 +6,9 @@ import { observer } from "mobx-react";
 /*********************************/
 @observer
 class Counter extends Component {
+  componentDidMount() {
+    this.props.store.getInitialCount();
+  }
   render() {
     return (
       <div>
