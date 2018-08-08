@@ -1,0 +1,31 @@
+{
+  "name": "react-mobx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env webpack-dev-server --config config/webpack.config.dev.js --mode development"
+  },
+  "author": "Thekho Ngaosathe",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-mobx": "^1.0.3",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "react-hot-loader": "^4.3.4",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
